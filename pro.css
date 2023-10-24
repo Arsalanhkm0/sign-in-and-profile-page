@@ -1,0 +1,106 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;}
+
+html,body{width: 100%;height: 100%;}
+
+body{
+background: #002950;
+box-shadow:  35px 35px 70px #4f3f8a, -35px -35px 70px #d7abff;
+}
+
+.ppp{padding: 15%;}
+h5,.hh{
+	transition: all 1s;}
+.hhhb{
+	box-shadow:  35px 35px 70px #4f3f8a, -35px -35px 70px #387580;
+}
+.hhh{
+    /* background: linear-gradient(145deg, #8469e6, #9d7dff); */
+    box-shadow:  35px 35px 70px #4f3f8a, -35px -35px 70px #d7abff;
+    cursor: pointer;
+}
+.hh:hover{
+	box-shadow:  35px 35px 70px #4f3f8a, -35px -35px 70px #d7abff;
+	cursor: pointer;}
+h5:hover{
+	color: #4f3f8a; border-radius:30% }
+
+input{
+	outline: none; border-radius: 10px; padding: 7px;border: grey solid 1px;}
+
+a{
+	text-decoration: none;color: white;}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background-color:#3d94f6;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+.myButton:hover {
+	background-color:#1e62d0;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+@keyframes aaa {
+	0%{opacity: 0% ;}
+	100%{opacity: 100%;}
+}
+.bd{
+	animation:aaa 2s 1}
+
+	@media (max-height:400px) {
+		.div1{flex-direction: row !important;}
+	  }
+
+
+
+	  .cir {
+		background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+		background-color:#ffffff;
+		border-radius:42px;
+		border:1px solid #dcdcdc;
+		display:inline-block;
+		cursor:pointer;
+		color:#666666;
+		font-family:Courier New;
+		font-size:28px;
+		font-weight:bold;
+		font-style:italic;
+		padding:22px 10px;
+		text-decoration:none;
+		text-shadow:50px 50px 50px #ffffff;
+	}
+	.cir:hover {
+		background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+		background-color:#f6f6f6;
+	}
+	.cir:active {
+		position:relative;
+		top:1px;
+	}
+	#btn2{
+		width: 25%;
+		animation: annn 1 1s;
+	}
+	
+	@keyframes annn{
+		0%{width:50%}
+		100%{width:25%;}
+	}
+
+	
